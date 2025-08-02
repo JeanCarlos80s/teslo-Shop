@@ -4,13 +4,12 @@ import {RouterOutlet} from "@angular/router";
 import {FrontNavbarComponent} from "../../components/front-navbar/front-navbar.component";
 
 @Component({
-  selector: 'app-store-front-layout',
-  standalone: true,
-  imports: [
-    CommonModule,
-    RouterOutlet,
-    FrontNavbarComponent
-  ],
-  templateUrl: './store-front-layout.component.html',
+    selector: 'app-store-front-layout',
+    imports: [
+        CommonModule,
+        RouterOutlet,
+        FrontNavbarComponent
+    ],
+    templateUrl: './store-front-layout.component.html'
 })
 export class StoreFrontLayoutComponent { }
